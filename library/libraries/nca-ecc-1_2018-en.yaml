@@ -1,0 +1,78 @@
+urn: urn:intuitem:risk:library:nca-ecc-1_2018
+locale: en
+name: NCA ECC-1:2018
+description: NCA Essential Cybersecurity Controls (ECC-1:2018)
+version: 1
+objects:
+  framework:
+    urn: urn:intuitem:risk:framework:nca-ecc-1_2018
+    provider: NCA
+    name: ECC-1:2018
+    description: NCA Essential Cybersecurity Controls (ECC-1:2018)
+    version: 1
+    requirement_groups:
+    - urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1
+      name: 1
+      description: Cybersecurity Governance
+    - urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:1
+      name: 1-1
+      description: Cybersecurity Strategy
+      objective: To ensure that cybersecurity plans, goals, initiatives and 
+        projects are contributing to compliance with related laws and 
+        regulations.
+      parent_urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1
+    - urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:1:1
+      name: 1-1-1
+      description: A cybersecurity strategy must be defined, documented and 
+        approved. It must be supported by the head of the organization or 
+        his/her delegate (referred to in this document as Authorizing Official).
+        The strategy goals must be in-line with related laws and regulations.
+      parent_urn:urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:1
+    - urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:1:2
+      name: 1-1-2
+      description: A roadmap must be executed to implement the cybersecurity 
+        strategy.
+      parent_urn:urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:1
+      - urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:1:3
+      name: 1-1-3
+      description: The cybersecurity strategy must be reviewed periodically 
+        according to planned intervals or upon changes to related laws and 
+        regulations.
+      parent_urn:urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:1
+      - urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:2
+      name: 1-2
+      description: Cybersecurity Management
+      objective: To ensure Authorizing Official's support in implementing and 
+        managing cybersecurity programs within the organization as per related 
+        laws and regulations.
+      parent_urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1
+      - urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:2:1
+      name: 1-2-1
+      description: A dedicated cybersecurity function (e.g., division, 
+        department) must be established within the organization. This function
+        must be independent from the Information Technology/Information 
+        Communication and Technology (IT/ICT) functions (as per the Royal 
+        Decree number 37140 dated 14/8/1438H). It is highly recommended that 
+        this cybersecurity function reports directly to the head of the 
+        organization or his/her delegate while ensuring that this does not 
+        result in a conflict of interest.
+      parent_urn:urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:2
+      - urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:2:2
+      name: 1-2-2
+      description: The position of cybersecurity function head (e.g., CISO), 
+        and related supervisory and critical positions within the function, 
+        must be filled with full-time and experienced Saudi cybersecurity 
+        professionals.
+      parent_urn:urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:2
+      - urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:2:3
+      name: 1-2-3
+      description: A cybersecurity steering committee must be established by 
+        the Authorizing Official to ensure the support and implementation of
+        the cybersecurity programs and initiatives within the organization.
+        Committee members, roles and responsibilities, and governance framework
+        must be defined, documented and approved. The committee must include 
+        the head of the cybersecurity function as one of its members. It is 
+        highly recommended that the committee reports directly to the head of 
+        the organization or his/her delegate while ensuring that this does not
+        result in a conflict of interest.
+      parent_urn:urn: urn:intuitem:risk:req_groups:nca-ecc-1_2018:1:2
