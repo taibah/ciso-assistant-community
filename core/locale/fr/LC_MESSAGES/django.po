@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-03 07:40+0000\n"
+"POT-Creation-Date: 2024-01-06 22:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,7 +42,7 @@ msgstr "Coeur"
 msgid "Name"
 msgstr "Nom"
 
-#: core/base_models.py:13 core/models.py:134
+#: core/base_models.py:13 core/models.py:137
 #: core/templates/core/assessment_list.html:110
 #: core/templates/core/detail/assessment_detail.html:57
 #: core/templates/core/evidence_list.html:110
@@ -65,17 +65,15 @@ msgstr "Nom"
 msgid "Description"
 msgstr ""
 
-#: core/base_models.py:24 core/filters.py:329
+#: core/base_models.py:24 core/filters.py:325
 msgid "Created at"
 msgstr "Créé le"
 
-#: core/base_models.py:89
-msgid ""
-"{getattr(self, field)} is already in use in this scope. Please choose "
-"another value."
+#: core/base_models.py:87
+msgid "Value already used in this scope."
 msgstr ""
 
-#: core/base_models.py:106
+#: core/base_models.py:103
 #, fuzzy
 #| msgid "calendar"
 msgid "Locale data"
@@ -89,30 +87,22 @@ msgstr "Trier par"
 msgid "Search security measure..."
 msgstr "Rechercher une mesure de sécurité..."
 
-#: core/filters.py:140 core/filters.py:171 core/filters.py:199
-#: core/filters.py:224 core/filters.py:256 core/filters.py:352
-#: core/filters.py:391 core/filters.py:419 core/filters.py:446
-#: core/filters.py:473 core/filters.py:500
+#: core/filters.py:138 core/filters.py:167 core/filters.py:195
+#: core/filters.py:220 core/filters.py:252 core/filters.py:348
+#: core/filters.py:387 core/filters.py:415 core/filters.py:442
+#: core/filters.py:469 core/filters.py:496
 msgid "name"
 msgstr "nom"
 
-#: core/filters.py:141 core/filters.py:172 core/filters.py:200
-#: core/filters.py:225 core/filters.py:257 core/filters.py:353
-#: core/filters.py:392 core/filters.py:420 core/filters.py:447
-#: core/filters.py:474 core/filters.py:501
+#: core/filters.py:139 core/filters.py:168 core/filters.py:196
+#: core/filters.py:221 core/filters.py:253 core/filters.py:349
+#: core/filters.py:388 core/filters.py:416 core/filters.py:443
+#: core/filters.py:470 core/filters.py:497
 msgid "Name (descending)"
 msgstr "Nom (descendant)"
 
-#: core/filters.py:142
-msgid "type"
-msgstr ""
-
-#: core/filters.py:143
-msgid "Type (descending)"
-msgstr "Type (descendant)"
-
-#: core/filters.py:144 core/filters.py:201 core/forms.py:256 core/forms.py:267
-#: core/forms.py:353 core/models.py:20 core/models.py:230
+#: core/filters.py:140 core/filters.py:197 core/forms.py:256 core/forms.py:267
+#: core/forms.py:353 core/models.py:20 core/models.py:229
 #: core/templates/core/browser.html:47
 #: core/templates/core/detail/assessment_detail.html:23
 #: core/templates/core/framework_list.html:116
@@ -124,118 +114,118 @@ msgstr "Type (descendant)"
 msgid "Domain"
 msgstr "Domaine"
 
-#: core/filters.py:145 core/filters.py:202
+#: core/filters.py:141 core/filters.py:198
 msgid "Domain (descending)"
 msgstr "Domaine (descendant)"
 
-#: core/filters.py:146
+#: core/filters.py:142
 msgid "security function"
 msgstr "fonction de sécurité"
 
-#: core/filters.py:147
+#: core/filters.py:143
 msgid "Security function (descending)"
 msgstr "Fonction de sécurité (descendant)"
 
-#: core/filters.py:161
+#: core/filters.py:157
 msgid "Search domain..."
 msgstr "Rechercher un domaine..."
 
-#: core/filters.py:173 core/filters.py:393 core/filters.py:421
-#: core/filters.py:448 core/filters.py:475 core/filters.py:502
+#: core/filters.py:169 core/filters.py:389 core/filters.py:417
+#: core/filters.py:444 core/filters.py:471 core/filters.py:498
 msgid "description"
 msgstr ""
 
-#: core/filters.py:174 core/filters.py:394 core/filters.py:422
-#: core/filters.py:449 core/filters.py:476 core/filters.py:503
+#: core/filters.py:170 core/filters.py:390 core/filters.py:418
+#: core/filters.py:445 core/filters.py:472 core/filters.py:499
 msgid "Description (descending)"
 msgstr "Description (descendant)"
 
-#: core/filters.py:188
+#: core/filters.py:184
 msgid "Search project..."
 msgstr "Rechercher un projet..."
 
-#: core/filters.py:217
+#: core/filters.py:213
 msgid "Search threat..."
 msgstr "Rechercher une menace..."
 
-#: core/filters.py:245
+#: core/filters.py:241
 msgid "Search function..."
 msgstr "Rechercher une fonction..."
 
-#: core/filters.py:258
+#: core/filters.py:254
 msgid "provider"
 msgstr "fournisseur"
 
-#: core/filters.py:259
+#: core/filters.py:255
 msgid "Provider (descending)"
 msgstr "Fournisseur (descendant)"
 
-#: core/filters.py:281 core/filters.py:370 core/filters.py:378
+#: core/filters.py:277 core/filters.py:366 core/filters.py:374
 #: core/templates/snippets/modal/modal_action_form.html:20
 #: core/templates/snippets/modal/modal_delete_form.html:21
 #: core/templates/snippets/modal/modal_import_library_form.html:19
 msgid "Yes"
 msgstr "Oui"
 
-#: core/filters.py:282 core/filters.py:370 core/filters.py:378
+#: core/filters.py:278 core/filters.py:366 core/filters.py:374
 msgid "No"
 msgstr "Non"
 
-#: core/filters.py:310
+#: core/filters.py:306
 msgid "Search user..."
 msgstr "Rechercher un utilisateur..."
 
-#: core/filters.py:323 core/forms.py:121 core/forms.py:149
+#: core/filters.py:319 core/forms.py:121 core/forms.py:149
 #: core/templates/snippets/associated_users_list_nested.html:13
 #: core/templates/snippets/users_list_nested.html:13 core/views.py:1837
 msgid "Email"
 msgstr "Adresse électronique"
 
-#: core/filters.py:324
+#: core/filters.py:320
 msgid "Email (descending)"
 msgstr "Adresse électronique (descendant)"
 
-#: core/filters.py:325 core/views.py:1836
+#: core/filters.py:321 core/views.py:1836
 msgid "First name"
 msgstr "Prénom"
 
-#: core/filters.py:326
+#: core/filters.py:322
 msgid "First name (descending)"
 msgstr "Prénom (descendant)"
 
-#: core/filters.py:327 core/views.py:1835
+#: core/filters.py:323 core/views.py:1835
 msgid "Last name"
 msgstr "Nom"
 
-#: core/filters.py:328
+#: core/filters.py:324
 msgid "Last name (descending)"
 msgstr "Nom (descendant)"
 
-#: core/filters.py:330
+#: core/filters.py:326
 msgid "Created at (descending)"
 msgstr "Créé le (descendant)"
 
-#: core/filters.py:344
+#: core/filters.py:340
 msgid "Search user group..."
 msgstr "Rechercher un groupe utilisateur..."
 
-#: core/filters.py:363
+#: core/filters.py:359
 msgid "Search assessment..."
 msgstr "Rechercher une évaluation..."
 
-#: core/filters.py:409
+#: core/filters.py:405
 msgid "Search requirement assessment..."
 msgstr "Rechercher une évaluation des exigences..."
 
-#: core/filters.py:436
+#: core/filters.py:432
 msgid "Search requirement..."
 msgstr "Rechercher une exigence..."
 
-#: core/filters.py:463
+#: core/filters.py:459
 msgid "Search evidence..."
 msgstr "Rechercher une preuve..."
 
-#: core/filters.py:490
+#: core/filters.py:486
 msgid "Search framework..."
 msgstr "Rechercher un référentiel..."
 
@@ -255,7 +245,7 @@ msgstr "conditions générales d'utilisation"
 msgid "Check this if you want to attach an evidence right after"
 msgstr "Cochez si vous voulez attacher une preuve juste après"
 
-#: core/models.py:24 core/models.py:328
+#: core/models.py:24 core/models.py:327
 #: core/templates/core/assessment_list.html:111
 #: core/templates/core/browser.html:21
 #: core/templates/core/detail/assessment_detail.html:27
@@ -269,8 +259,8 @@ msgstr "Projet"
 msgid "Projects"
 msgstr "Projets"
 
-#: core/models.py:41 core/models.py:71 core/models.py:113 core/models.py:131
-#: core/models.py:155 core/models.py:183
+#: core/models.py:41 core/models.py:71 core/models.py:115 core/models.py:134
+#: core/models.py:159 core/models.py:188
 msgid "URN"
 msgstr ""
 
@@ -278,7 +268,7 @@ msgstr ""
 msgid "Version of the threat (eg. 1.0, 2.0, etc.)"
 msgstr "Version de la menace (eg. 1.0, 2.0, etc.)"
 
-#: core/models.py:48 core/models.py:78 core/models.py:194 core/models.py:338
+#: core/models.py:48 core/models.py:78 core/models.py:199 core/models.py:337
 #: core/templates/library/library_detail.html:103
 msgid "Version"
 msgstr ""
@@ -287,7 +277,7 @@ msgstr ""
 msgid "Threat"
 msgstr "Menace"
 
-#: core/models.py:54 core/models.py:139 core/templates/core/sidebar.html:102
+#: core/models.py:54 core/models.py:143 core/templates/core/sidebar.html:102
 #: core/templates/core/threat_list.html:5
 #: core/templates/library/library_detail.html:31 core/views.py:1783
 msgid "Threats"
@@ -297,8 +287,8 @@ msgstr "Menaces"
 msgid "Version of the framework (eg. 1.0, 2.0, etc.)"
 msgstr "Version du référentiel (eg. 1.0, 2.0, etc.)"
 
-#: core/models.py:83 core/models.py:110 core/models.py:128 core/models.py:152
-#: core/models.py:331 core/templates/core/assessment_list.html:109
+#: core/models.py:83 core/models.py:112 core/models.py:131 core/models.py:156
+#: core/models.py:330 core/templates/core/assessment_list.html:109
 #: core/templates/core/compliance.html:34
 #: core/templates/core/detail/assessment_detail.html:31
 #: core/templates/core/overview.html:77
@@ -314,19 +304,19 @@ msgstr "Référentiel"
 msgid "Frameworks"
 msgstr "Référentiels"
 
-#: core/models.py:116 core/models.py:158
+#: core/models.py:118 core/models.py:162
 msgid "Parent URN"
 msgstr "URN parent"
 
-#: core/models.py:118 core/models.py:160
+#: core/models.py:120 core/models.py:164
 msgid "Order ID"
 msgstr "ID d'ordre"
 
-#: core/models.py:119 core/models.py:133 core/models.py:161
+#: core/models.py:121 core/models.py:136 core/models.py:165
 msgid "Level"
 msgstr "Niveau"
 
-#: core/models.py:144 core/models.py:200
+#: core/models.py:148 core/models.py:205
 #: core/templates/core/security_function_list.html:5
 #: core/templates/core/sidebar.html:110
 #: core/templates/library/library_detail.html:64 core/views.py:516
@@ -334,72 +324,60 @@ msgstr "Niveau"
 msgid "Security functions"
 msgstr "Fonctions de sécurité"
 
-#: core/models.py:166
+#: core/models.py:170
 msgid "Informative reference"
 msgstr "Référence informative"
 
-#: core/models.py:170 core/models.py:454
+#: core/models.py:175 core/models.py:453
 #: core/templates/core/requirementassessment_list.html:108
 msgid "Requirement"
 msgstr "Exigence"
 
-#: core/models.py:171 core/templates/core/detail/assessment_detail.html:63
+#: core/models.py:176 core/templates/core/detail/assessment_detail.html:63
 #: core/templates/core/requirement_list.html:6
 #: core/templates/library/library_detail.html:115 core/views.py:867
 msgid "Requirements"
 msgstr "Exigences"
 
-#: core/models.py:186 core/templates/core/security_function_list.html:108
+#: core/models.py:191 core/templates/core/security_function_list.html:108
 #: core/templates/library/library_detail.html:102
 msgid "Provider"
 msgstr "Fournisseur"
 
-#: core/models.py:188
+#: core/models.py:193
 msgid "Typical evidence"
 msgstr "Preuve type"
 
-#: core/models.py:193
+#: core/models.py:198
 msgid "Version of the security function (eg. 1.0, 2.0, etc.)"
 msgstr "Version de la fonction de sécurité (eg. 1.0, 2.0, etc.)"
 
-#: core/models.py:199 core/templates/core/mtg_list.html:114
+#: core/models.py:204 core/templates/core/mtg_list.html:114
 #: core/templates/snippets/mtg_list_nested.html:13
 msgid "Security function"
 msgstr "Fonction de sécurité"
 
-#: core/models.py:217
+#: core/models.py:222
 msgid "Open"
 msgstr "Ouvert"
 
-#: core/models.py:218 core/models.py:436
+#: core/models.py:223 core/models.py:435
 msgid "In progress"
 msgstr "En cours"
 
-#: core/models.py:219
+#: core/models.py:224
 msgid "On hold"
 msgstr "En attente"
 
-#: core/models.py:220
+#: core/models.py:225
 msgid "Done"
 msgstr "Terminé"
 
-#: core/models.py:224
-msgid "N/A"
-msgstr ""
-
-#: core/models.py:225
-msgid "Technical"
-msgstr "Technique"
-
-#: core/models.py:226
-msgid "Organizational"
-msgstr "Organisationnel"
-
-#: core/models.py:237
+#: core/models.py:236
 msgid "Security Function"
 msgstr "Fonction de sécurité"
 
-#: core/models.py:243 core/models.py:447 core/templates/core/browser.html:50
+#: core/models.py:242 core/models.py:446 core/templates/core/browser.html:50
 #: core/templates/core/fragments/watchlist_measures.html:14
 #: core/templates/core/mtg_list.html:110
 #: core/templates/core/project_create.html:31
@@ -408,27 +386,27 @@ msgstr "Fonction de sécurité"
 msgid "Status"
 msgstr "Statut"
 
-#: core/models.py:245 core/templates/core/fragments/watchlist_measures.html:11
+#: core/models.py:244 core/templates/core/fragments/watchlist_measures.html:11
 #: core/templates/core/mtg_list.html:111
 msgid "Cost"
 msgstr "Coût"
 
-#: core/models.py:247
+#: core/models.py:246
 msgid "Estimated Time of Arrival"
 msgstr "Heure d'arrivée prévue"
 
-#: core/models.py:247 core/templates/core/browser.html:48
+#: core/models.py:246 core/templates/core/browser.html:48
 #: core/templates/core/fragments/watchlist_measures.html:17
 #: core/templates/core/treatment.html:23
 msgid "ETA"
 msgstr "Arrivée estimée"
 
-#: core/models.py:250 core/models.py:286
+#: core/models.py:249 core/models.py:285
 #: core/templates/core/search_results.html:20
 msgid "Security measure"
 msgstr "Mesure de sécurité"
 
-#: core/models.py:251 core/models.py:459 core/templates/core/mtg_list.html:6
+#: core/models.py:250 core/models.py:458 core/templates/core/mtg_list.html:6
 #: core/templates/core/overview.html:53
 #: core/templates/core/requirementassessment_list.html:110
 #: core/templates/core/requirementassessment_update.html:40
@@ -436,63 +414,64 @@ msgstr "Mesure de sécurité"
 msgid "Security measures"
 msgstr "Mesures de sécurité"
 
-#: core/models.py:293
+#: core/models.py:292
 msgid "File for evidence (eg. screenshot, log file, etc.)"
 msgstr "Fichier de preuve (eg. capture d'écran, fichier de log, etc.)"
 
-#: core/models.py:294 core/templates/core/evidence_list.html:109
+#: core/models.py:293 core/templates/core/evidence_list.html:109
 #: core/templates/snippets/evidence_list_nested.html:10
 msgid "File"
 msgstr "Fichier"
 
-#: core/models.py:300 core/models.py:449
+#: core/models.py:299 core/models.py:448
 msgid "Comment"
 msgstr "Commentaire"
 
-#: core/models.py:304 core/templates/core/evidence_list.html:6
+#: core/models.py:303
 msgid "Evidence"
 msgstr "Preuve"
 
-#: core/models.py:305 core/templates/core/overview.html:57
-#: core/templates/core/sidebar.html:70 core/views.py:997
+#: core/models.py:304 core/templates/core/evidence_list.html:6
+#: core/templates/core/overview.html:57 core/templates/core/sidebar.html:70
+#: core/views.py:997
 msgid "Evidences"
 msgstr "Preuves"
 
-#: core/models.py:337
+#: core/models.py:336
 msgid "Version of the assessment (eg. 1.0, 2.0, etc.)"
 msgstr "Version de l'évaluation (eg. 1.0, 2.0, etc.)"
 
-#: core/models.py:341 core/templates/core/assessment_list.html:120
+#: core/models.py:340 core/templates/core/assessment_list.html:120
 #: core/templates/core/index.html:119
 msgid "draft"
 msgstr "brouillon"
 
-#: core/models.py:342
+#: core/models.py:341
 msgid "obsolete"
 msgstr "obsolète"
 
-#: core/models.py:345 core/models.py:451 core/templates/core/overview.html:74
+#: core/models.py:344 core/models.py:450 core/templates/core/overview.html:74
 #: core/templates/core/requirementassessment_list.html:109
 #: core/templates/snippets/assessment_data.html:13
 msgid "Assessment"
 msgstr "Évaluation"
 
-#: core/models.py:346 core/templates/core/assessment_list.html:6
+#: core/models.py:345 core/templates/core/assessment_list.html:6
 #: core/templates/core/framework_list.html:115
 #: core/templates/core/overview.html:49 core/templates/core/sidebar.html:52
 #: core/views.py:693 core/views.py:1117 core/views.py:2272
 msgid "Assessments"
 msgstr "Évaluations"
 
-#: core/models.py:394
+#: core/models.py:393
 msgid "{}: Assessment is still in Draft mode"
 msgstr "{} : Évaluation toujours en mode Brouillon"
 
-#: core/models.py:397
+#: core/models.py:396
 msgid "{}: Assessment is both in Draft mode and obsolete."
 msgstr "{}: L'évaluation est à la fois en mode brouillon et obsolète."
 
-#: core/models.py:404
+#: core/models.py:403
 msgid ""
 "{}: Requirement assessment status is compliant or partially compliant with "
 "no security measure applied"
@@ -500,15 +479,15 @@ msgstr ""
 "{}: Le status de l'évaluation d'exigence est conforme ou partiellement "
 "conforme sans aucun mesure de sécurité appliquée"
 
-#: core/models.py:411
+#: core/models.py:410
 msgid "{}: Security measure has no security function selected"
 msgstr "{}: La mesure de sécurité n'a pas de fonction de sécurité sélectionnée"
 
-#: core/models.py:418
+#: core/models.py:417
 msgid "{}: Evidence has no file uploaded"
 msgstr "{} : La preuve n'a pas de fichier téléchargé"
 
-#: core/models.py:421
+#: core/models.py:420
 msgid ""
 "{}: Evidence does not have an external link attached. This will help you for "
 "follow-up"
@@ -516,31 +495,31 @@ msgstr ""
 "{} : La preuve n'a pas de lien externe attaché. Cela vous aidera pour le "
 "suivi"
 
-#: core/models.py:435
+#: core/models.py:434
 msgid "To do"
 msgstr "À faire"
 
-#: core/models.py:437
+#: core/models.py:436
 msgid "Non compliant"
 msgstr "Non conforme"
 
-#: core/models.py:438
+#: core/models.py:437
 msgid "Partially compliant"
 msgstr "Partiellement conforme"
 
-#: core/models.py:439
+#: core/models.py:438
 msgid "Compliant"
 msgstr "Conforme"
 
-#: core/models.py:440
+#: core/models.py:439
 msgid "Not applicable"
 msgstr "Non applicable"
 
-#: core/models.py:469
+#: core/models.py:470
 msgid "Requirement assessment"
 msgstr "Évaluation d'exigence"
 
-#: core/models.py:470 core/templates/core/requirementassessment_list.html:6
+#: core/models.py:471 core/templates/core/requirementassessment_list.html:6
 msgid "Requirement assessments"
 msgstr "Évaluations d'exigence"
 
@@ -2440,11 +2419,15 @@ msgstr "Analyste"
 msgid "Auditor"
 msgstr "Auditeur"
 
-#: core/utils.py:44
+#: core/utils.py:45
+msgid "Arabic"
+msgstr ""
+
+#: core/utils.py:46
 msgid "French"
 msgstr "Français"
 
-#: core/utils.py:45
+#: core/utils.py:47
 msgid "English"
 msgstr "Anglais"
 
@@ -2512,6 +2495,15 @@ msgstr ""
 "L'édition de l'attribution des rôles sera disponible dans une prochaine "
 "version. Actuellement, vous devez attacher les utilisateurs à des groupes "
 "pour leur attribuer des rôles."
+
+#~ msgid "Type (descending)"
+#~ msgstr "Type (descendant)"
+
+#~ msgid "Technical"
+#~ msgstr "Technique"
+
+#~ msgid "Organizational"
+#~ msgstr "Organisationnel"
 
 #~ msgid "Your all-in-one Risk Management Platform"
 #~ msgstr "Votre plateforme de gestion des risques tout-en-un"
